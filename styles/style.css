@@ -1,0 +1,84 @@
+body{
+    padding: 0;margin: 0;
+    font-family: 'Libre Franklin', sans-serif;
+}
+h1{
+    font-size: 2em;
+}
+h1 span {
+    
+    color:hsl(223, 87%, 63%) ;
+}
+#main-container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+section{
+    position: relative;
+    text-align: center;
+   width: 500px;
+}
+h2{
+    font-size: 2.3em;
+    font-weight: 100;
+    color: hsl(0, 0%, 59%);
+}
+h2 span{
+    color: #000000;
+    font-weight: 900;
+}
+p{
+    color: hsl(0, 1%, 20%);
+    font-size: 20px;
+}
+input {
+    position: relative;
+    width: 300px;
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid hsl(0, 0%, 59%);
+    outline: none;
+    padding: 5px;
+    border-radius: 2rem;
+    z-index: 1;
+}
+form button{
+    position: relative;
+    width: 130px;
+    height: 40px;
+    border-radius: 2rem;
+    padding: 5px;
+    background-color: hsl(223, 87%, 63%);
+    border: 7px solid hsl(223, 87%, 63%);
+    color: #f0f8ff;
+    cursor: pointer;
+    z-index: 2;
+}
+img{
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+p a{
+    position: relative;
+    color: darkcyan;
+    z-index: 1;
+}
+.attribution{
+   font-size: 15px;
+   text-align: center;
+   margin-top: 0;
+}
+@media screen and (max-width:442px) {
+    input{
+        width: 90%;
+    }
+    form button{
+        width: 90%;
+    }
+}
